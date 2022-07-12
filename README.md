@@ -23,7 +23,7 @@ sozluk <ARANACAK-KELIME>
 ```
 Bu kadar.
 
-![Ekran Görüntüsü](terminal.png
+![Ekran Görüntüsü](terminal.png)
 
 # Lisans
 

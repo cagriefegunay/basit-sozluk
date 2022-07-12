@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -s "https://sozluk.gov.tr/gts?ara=$1"| jq | grep -w anlam | cut -d " " -f10- | tr -d ":\"" | awk '{print NR". "$0}' | sed 's/\,$//'
